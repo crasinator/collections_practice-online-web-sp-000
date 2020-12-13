@@ -30,14 +30,9 @@ arr
 end 
 
 def find_a(arr) 
-  i = 0   
-  ween = arr.length
   new_arr = [ ]
   arr.each do |var|
      new_arr.push(var.start_with?("a"))
-   end 
-   i += 1 
  end 
-end
 return new_arr
 end 
