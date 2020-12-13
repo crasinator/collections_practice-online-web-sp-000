@@ -48,7 +48,7 @@ def add_s(arr)
     if var != "feet"
        var = var + "s"
     else 
-       var = var
+       var
     end 
   end
 end 
