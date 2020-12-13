@@ -46,8 +46,8 @@ end
 def add_s(arr)
  
     arr.collect do |var| 
-      next if var == "feet"
+      if var != "feet"
        var = var + "s"
     end 
 end
-  
+ end 
