@@ -30,13 +30,13 @@ arr
 end 
 
 def find_a(arr) 
-new_arr = [ ]
-  arr.each do |var|
-    if var.start_with?("a") == true
-      new_arr.push(var)
-    end 
-  end
-new_arr
+  new_arr = [ ]
+    arr.each do |var|
+      if var.start_with?("a") == true
+        new_arr.push(var)
+      end 
+    end
+  new_arr
 end 
 
 def sum_array(arr)
@@ -44,6 +44,7 @@ def sum_array(arr)
 end 
   
 def add_s(arr)
+new_arr = [ ]
    arr.each do |var| 
     var = var + "s"
   end 
