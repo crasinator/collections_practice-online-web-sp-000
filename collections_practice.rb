@@ -39,3 +39,10 @@ new_arr = [ ]
 new_arr
 end 
 
+def sum_array(arr)
+  arr.each do |a, b|
+    a + b
+  end 
+end 
+  
+  
