@@ -52,6 +52,7 @@ def add_s(arr)
         var = var + "s"
         new_arr.push(var)
     end 
+  end
   new_arr
 end
   
