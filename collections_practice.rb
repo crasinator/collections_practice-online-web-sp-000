@@ -49,10 +49,9 @@ def add_s(arr)
       if var == "feet"
         new_arr.push(var)
       else
-        var = var + "s"
-        new_arr.push(var)
+        new_arr.push(var + "s")
     end 
   end
-  new_arr
+new_arr
 end
   
