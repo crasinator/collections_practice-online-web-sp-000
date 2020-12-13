@@ -35,5 +35,6 @@ def find_a(arr)
    if var.start_with?("a") == true
      new_arr.push(var)
  end 
+ end
 return new_arr
 end 
