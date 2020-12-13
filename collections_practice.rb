@@ -44,12 +44,11 @@ def sum_array(arr)
 end 
   
 def add_s(arr)
- 
-    arr.collect do |var| 
-      if var != "feet"
+  arr.collect do |var| 
+    if var != "feet"
        var = var + "s"
-     else 
+    else 
        var = var
     end 
-end
- end 
+  end
+end 
