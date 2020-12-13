@@ -32,7 +32,8 @@ end
 def find_a(arr) 
   new_arr = [ ]
   arr.each do |var|
-     new_arr.push(var.start_with("a"))
+   if var.start_with?("a") == true
+     new_arr.push(var)
  end 
 return new_arr
 end 
