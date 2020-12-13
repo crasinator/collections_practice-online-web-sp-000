@@ -44,9 +44,11 @@ def sum_array(arr)
 end 
   
 def add_s(arr)
-new_arr = [ ]
-   arr.each do |var| 
-    var = var + "s"
-  end 
+  new_arr = [ ]
+    arr.each do |var| 
+      var = var + "s"
+      new_arr.push(var)
+    end 
+  new_arr
 end
   
