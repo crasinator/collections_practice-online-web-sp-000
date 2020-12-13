@@ -50,5 +50,4 @@ def add_s(arr)
        var = var + "s"
     end 
 end
-end
   
