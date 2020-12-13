@@ -32,7 +32,7 @@ end
 def find_a(arr) 
   new_arr = [ ]
   arr.each do |var|
-     new_arr.push(var.start_with?("a"))
+     new_arr.push(var.start_with("a"))
  end 
 return new_arr
 end 
