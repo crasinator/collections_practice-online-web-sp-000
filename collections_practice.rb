@@ -46,7 +46,7 @@ end
 def add_s(arr)
   new_arr = [ ]
     arr.each do |var| 
-      if var == feet
+      if var == "feet"
         new_arr.push(var)
       else
         var = var + "s"
